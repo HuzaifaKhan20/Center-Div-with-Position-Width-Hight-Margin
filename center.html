@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center</title>
+</head>
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    .content {
+        position: relative;
+        height: 100vh;
+    }
+
+    .centered {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        background: lightblue;
+        opacity: .75;
+    }
+
+    .centered p {
+        text-align: center;
+        height: 100%;
+        padding: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <div class="content">
+        <div class="centered">
+            <p>Centered Text</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
